@@ -2,8 +2,8 @@ apiVersion: v1
 kind: Service
 metadata:
   labels:
-    app: bookalbum23
-  name: bookalbum23
+    app: bookalbum233
+  name: bookalbum233
 spec:
   type: NodePort
   ports:
@@ -11,5 +11,5 @@ spec:
       targetPort: 80
       protocol: TCP
   selector:
-    app: bookalbum23
+    app: bookalbum233
 
